@@ -1,4 +1,12 @@
-# Tag-Instruct: Controlled Instruction Complexity Enhancement through Structure-based Augmentation
+# 🏷️ Tag-Instruct: Controlled Instruction Complexity Enhancement through Structure-based Augmentation
+
+
+[![arXiv](https://img.shields.io/badge/arXiv-paper-b31b1b.svg)](tag_instruct_acl25_arixv.pdf) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://huggingface.co/collections/username/tag-instruct) [![Spaces](https://img.shields.io/badge/🔍-Open%20in%20Spaces-blue)](chttps://modelscope.cn/models/chichi56/llama3-8b-tag_instruct_reward_4)
+
+
+## 📰 News
+- [2025/02/15] Tag-Instruct paper is submitted to ACL 2025!
+- [2025/05/08] Our paper and models are now publicly available on [GitHub](https://github.com/sustech-nlp/Tag-Instruct) and [ModelScope](https://modelscope.cn/models/chichi56/llama3-8b-tag_instruct_reward_4).
 
 
 ## 📋 Overview
