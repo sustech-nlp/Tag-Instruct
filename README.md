@@ -6,7 +6,8 @@
 
 ## 📰 News
 - [2025/02/15] Tag-Instruct paper is submitted to ACL 2025!
-- [2025/05/08] Our paper and models are now publicly available on [GitHub](https://github.com/sustech-nlp/Tag-Instruct) and [ModelScope](https://modelscope.cn/models/chichi56/llama3-8b-tag_instruct_reward_4).
+- [2025/05/08] Our paper and models are now publicly available on [arXiv](https://arxiv.org/abs/2505.18557) and [ModelScope](https://modelscope.cn/models/chichi56/llama3-8b-tag_instruct_reward_4).
+- [2025/07/27] Tag-Instruct paper is accepted to ACL 2025 Findings!
 
 
 ## 📋 Overview
