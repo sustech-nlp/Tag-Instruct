@@ -1,0 +1,31 @@
+# Core ML/NLP Libraries
+torch>=2.0.0
+transformers>=4.30.0
+vllm>=0.3.0
+sentence-transformers>=2.2.0
+tokenizers>=0.13.0
+
+# Data Processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Utilities
+loguru>=0.7.0
+tqdm>=4.65.0
+regex>=2023.6.3
+
+# Async/Parallel Processing
+ray>=2.5.0
+httpx>=0.24.0
+asyncio
+
+# Visualization
+matplotlib>=3.7.0
+
+# OpenAI API (for DeepSeek inference)
+openai>=1.0.0
+
+# Optional Training Frameworks
+# llamafactory-cli  # Uncomment if using LLaMA-Factory
+# verl              # Uncomment if using VERL
