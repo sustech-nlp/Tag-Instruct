@@ -1,6 +1,6 @@
 import random
 random.seed(42)
-from vllm_client import parallel_inference
+from inference.vllm_client import parallel_inference
 from utils import *
 from loguru import logger
 from dataclasses import dataclass

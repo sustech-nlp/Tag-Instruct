@@ -7,7 +7,7 @@ import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 from utils import load_jsonlines, write_jsonlines
-from vllm_client import parallel_inference
+from inference.vllm_client import parallel_inference
 import re
 from tag_instruct import * 
 from tqdm import tqdm, trange
