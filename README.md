@@ -74,6 +74,49 @@ Our analysis reveals several key insights:
 3. **Iterative Optimization**: Tag-Instruct consistently achieves higher complexity scores and quality metrics across iterations compared to baselines
 
 
+
+## 🚀 Quick Start
+
+### Prerequisites
+Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Step 1: Generate Tags
+Run the tag analysis to extract semantic tags from your dataset:
+```bash
+python src/instagger_analysis.py
+```
+
+### Step 2: Build Preference Data
+Generate preference pairs for training the reward model:
+```bash
+python src/build_preference.py
+```
+
+### Step 3: Train Reward Model
+Train the tag expansion policy using the preference data. You can use either:
+
+**Option A: LLaMA-Factory**
+```bash
+llamafactory-cli train --config_path configs/dpo_config.yaml
+```
+
+**Option B: VERL**
+```bash
+python -m verl.trainer.dpo --config configs/dpo_config.json
+```
+
+### Step 4: Generate Enhanced Instructions
+Run Tag-Instruct with the trained reward model to create more complex instructions:
+```bash
+python src/tag_instruct_reward.py
+```
+
+The enhanced instruction dataset will be saved in the specified output directory.
+
+
 ## 📝 Citation
 
 If you find this work useful, please cite our paper:
