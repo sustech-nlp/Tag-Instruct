@@ -117,7 +117,11 @@ python src/tag_instruct_reward.py
 The enhanced instruction dataset will be saved in the specified output directory.
 
 
+## 🧪 Testing
+For development and testing purposes, you can use GPT-4o-mini as a lightweight alternative by updating the model configuration in the respective scripts.
+
 ## 📝 Citation
+
 
 If you find this work useful, please cite our paper:
 
